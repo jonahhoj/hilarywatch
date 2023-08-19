@@ -1,0 +1,54 @@
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+  float:left;
+  width: 12.5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#my-video0, #my-video1, #my-video2, #my-video3, #my-video4, #my-video5, #cctvImage
+{ 
+	width:620px;
+	height:460px;
+  margin-bottom:10px;
+}
+
+@charset "UTF-8";
+
+body
+{
+  font-family:arial,helvetica,sans-serif;
+  background: linear-gradient(to bottom right, #FFFFFF, #0A88E9);
+  text-align: center;
+}
+
+.p1 
+{
+  margin-top: 20px;
+}
+
+.vjs-volume-panel
+{
+  visibility: hidden;
+}
+
+.video-js .vjs-big-play-button
+{
+  bottom: 20px;
+  left: 5px;
+  top: auto;
+}
